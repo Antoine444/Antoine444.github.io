@@ -13,7 +13,7 @@ const HeroExperience = () => {
         <Canvas camera={{position: [0, 0, 15], fov: 45}}>
             <OrbitControls
                 enablePan={false}
-                enableZoom={!isTablet}
+                enableZoom={!isTablet && !isMobile}
                 maxDistance={20}
                 minDistance={5}
                 minPolarAngle={Math.PI / 5}
