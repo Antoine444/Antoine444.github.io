@@ -56,7 +56,11 @@ const Hero = () => {
                         </div>
 
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, I'm Antoine, a CS student at EPFL passioned about AI, Finance, Data Science and CS.
+                            Hi, I'm Antoine, a CS student at EPFL passioned about AI, Finance and Computer Science.
+                            I am actively developing machine learning models, implementing AI agents to solve complex problems,
+                            and researching advanced computational techniques. My academic journey and hands-on projects
+                            have equipped me with a robust skill set and a deep understanding of technology and finance.
+                            I am looking for internship opportunities world-wide and excited to contribute on concrete projects !
                         </p>
 
                         <Button

@@ -5,13 +5,15 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
+                {/*
                 <div className="flex flex-col justify-center md:items-start items-center">
-                    <a href="/">Visit my LinkedIn</a>
+                    <a href="/">Visit my vlog</a>
                 </div>
+                */}
                 <div className="socials">
                     {socialImgs.map((img) => (
                         <a className="icon" target="_blank" href={img.url} key={img.url}>
-                            <img src={img.imgPath} />
+                            <img src={img.imgPath}  alt={img.name}/>
                         </a>
                     ))}
                 </div>
