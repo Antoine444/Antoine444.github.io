@@ -78,7 +78,7 @@ const ShowcaseSection = () => {
 
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/qwen_tutor.jpg" alt="Qwen-STEM Tutor " />
+                                <img src="/images/qwen_tutor.jpg" alt="Qwen-STEM Tutor" />
                             </div>
                             <h2>
                                 Supervised Fine-Tuning on Pre-trained Model
