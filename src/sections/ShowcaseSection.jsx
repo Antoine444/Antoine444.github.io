@@ -81,7 +81,7 @@ const ShowcaseSection = () => {
                                 <img src="/images/qwen_tutor.jpg" alt="Qwen-STEM Tutor " />
                             </div>
                             <h2>
-                                QWEN-STEM Tutor
+                                Supervised Fine-Tuning on Pre-trained Model
                             </h2>
                         </div>
                     </div>
