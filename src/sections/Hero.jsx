@@ -4,6 +4,7 @@ import HeroExperience from "../components/models/hero_models/HeroExperience.jsx"
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
     useGSAP(() => {
@@ -21,6 +22,8 @@ const Hero = () => {
             },
             )
     })
+
+    const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
     return (
         <section id="hero" className="relative overflow-hidden">
@@ -60,7 +63,7 @@ const Hero = () => {
                             I am actively developing machine learning models, implementing AI agents to solve complex problems,
                             and researching advanced computational techniques. My academic journey and hands-on projects
                             have equipped me with a robust skill set and a deep understanding of technology and finance.
-                            I am looking for internship opportunities world-wide and excited to contribute on concrete projects !
+                            I am looking for internship opportunities world-wide and I am eager to contribute on concrete projects !
                         </p>
 
                         <Button
@@ -72,11 +75,13 @@ const Hero = () => {
                 </header>
 
                 {/*RIGHT: 3D MODEL */}
-                <figure>
-                    <div className="hero-3d-layout">
-                        <HeroExperience />
-                    </div>
-                </figure>
+                {!isMobile && (
+                    <figure>
+                        <div className="hero-3d-layout">
+                            <HeroExperience />
+                        </div>
+                    </figure>
+                )}
             </div>
 
             <AnimatedCounter />
