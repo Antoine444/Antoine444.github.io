@@ -49,14 +49,18 @@ const ShowcaseSection = () => {
                     {/* LEFT */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde" />
+                            <img src="/images/youtube_analysis.webp" alt="YouTube Analysis" />
                         </div>
                         <div className="text-content">
                             <h2>
-                                Title of Project 1
+                                YouTube Data Analysis
                             </h2>
                             <p className="text-white-50 md:text-xl">
-                                Description of Project 1
+                                Data analysis of the evolution of YouTube to understand how YouTube went from just an
+                                entertainment to a real professionalized platform. To do so, we collected and preprocessed
+                                datasets, performed statistical analysis, and created visualizations to present our
+                                findings using tools like pandas, matplotlib, seaborn, scikit-learn.
+                                Project done as part of the ADA CS-401 course.
                             </p>
                         </div>
                     </div>
@@ -65,19 +69,19 @@ const ShowcaseSection = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Library Management Platform" />
+                                <img src="/images/bitcoin_midprice.webp" alt="Bitcoin Midprice Prediction" />
                             </div>
                             <h2>
-                                Title of Project 2
+                                Bitcoin Midprice Prediction
                             </h2>
                         </div>
 
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="YC Directory" />
+                                <img src="/images/qwen_tutor.jpg" alt="Qwen-STEM Tutor " />
                             </div>
                             <h2>
-                                Title of Project 3
+                                QWEN-STEM Tutor
                             </h2>
                         </div>
                     </div>
